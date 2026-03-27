@@ -127,6 +127,8 @@ O projeto foi estruturado separando responsabilidades:
 3. Pressionar Play
 4. Clicar no botão **Cross** para iniciar a travessia
 
+ou executar o arquivo VBLSmartCrossingGame\SmartCrossing.exe
+
 ---
 
 ## 📌 Observações
