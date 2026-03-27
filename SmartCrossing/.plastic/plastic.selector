@@ -1,0 +1,4 @@
+repository "SmartCrossing 2026-03-22_15-29-00/SmartCrossing@1018647@cloud"
+  path "/"
+    br "/main"
+    co "/main"
