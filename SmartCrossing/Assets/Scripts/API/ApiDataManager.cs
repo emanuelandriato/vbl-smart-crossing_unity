@@ -14,7 +14,7 @@ public class ApiDataManager : MonoBehaviour
     private CancellationTokenSource _cts;    
     private List<CrossingData> CrossingDataList = new List<CrossingData>();     //Lista privada para manter o carregamento das previsões da api    
     public CrossingData CurrentCrossingData = new CrossingData();               //dados atuais da previsão    
-    public bool IsReady { get; private set; } = false;
+    public bool IsReady { get; private set; } = false;                          //o jogo somente pode iniciar depois que possuir dados da API, variavel para controlar isso
 
     private void Awake()
     {
